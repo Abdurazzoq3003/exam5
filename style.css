@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+header {
+  background-color: white;
+}
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-left a {
+  padding: 20px;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+.header-left a:hover {
+  color: green;
+}
+
+.header-right button {
+  color: white;
+  background-color: black;
+  padding: 10px;
+
+  border-radius: 10px;
+  cursor: pointer;
+}
+.header-right button:hover {
+  color: green;
+  background-color: white;
+  border-color: green;
+}
+/* Hero Section */
+
+.hero-left h2 {
+  font-size: 45px;
+  margin-top: 70px;
+}
+.hero-left button {
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-color: green;
+}
+.hero-left button:hover {
+  color: green;
+  background-color: white;
+  border-color: green;
+}
+
+.hero-parent {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* How Can */
+
+.section-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.section-left h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.section-left {
+  width: 350px;
+  background-color: #f2f4f6;
+}
+
+.section-left p {
+  color: black;
+  font-size: 15px;
+}
+.section-left:hover {
+  color: white;
+  background-color: green;
+}
+
+.section-left p:hover {
+  color: white;
+}
+
+.section-center h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.section-center {
+  width: 384px;
+  background-color: #f2f4f6;
+}
+
+.section-center p {
+  color: black;
+  font-size: 15px;
+}
+.section-center:hover {
+  color: white;
+  background-color: green;
+}
+
+.section-center p:hover {
+  color: white;
+}
+/* Develop Section  */
+
+.develop-parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.develop-left h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.develop-left {
+  width: 384px;
+  background-color: #f2f4f6;
+}
+
+.develop-left p {
+  color: black;
+  font-size: 15px;
+}
+.develop-left:hover {
+  color: white;
+  background-color: green;
+}
+
+.develop-left p:hover {
+  color: white;
+}
+
+.develop-right h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.develop-right {
+  width: 384px;
+  background-color: #f2f4f6;
+}
+
+.develop-right p {
+  color: black;
+  font-size: 15px;
+}
+.develop-right:hover {
+  color: white;
+  background-color: green;
+}
+
+.develop-right p:hover {
+  color: white;
+}
+
+.contact {
+  margin-top: 100px;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 22px;
+  width: 300px;
+}
+
+.contact .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact p {
+  width: 500px;
+  text-align: center;
+}
+
+.contact form {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.596);
+  width: 500px;
+  height: 200px;
+  padding: 30px;
+}
+
+.contact .form-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("./images/mars logo.png");
+}
+
+.contact input {
+  border: none;
+  margin: 20px 0;
+  background-color: transparent;
+  border-bottom: 2px solid rgb(170, 160, 160);
+  width: 350px;
+}
+
+.contact input::placeholder {
+  color: white;
+}
+
+.contact button {
+  background-color: #1aab7b;
+  border: none;
+  color: white;
+  width: 150px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 30px 0;
+  margin-top: 40px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer a {
+  color: gray;
+  text-decoration: none;
+}
+
+.fab,
+.far {
+  font-weight: 400;
+}
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.facebook {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
